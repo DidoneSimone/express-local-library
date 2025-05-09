@@ -1,5 +1,82 @@
+/* menu laterale */
 .sidebar-nav {
-  margin-top: 20px;
   padding: 0;
   list-style: none;
+  text-align: center;
+  margin-bottom: 2px ;
+  margin-top: 10px;
+  width: 200px;
+  height: 50px;
+  margin-right: 2px;
+  margin-left: 2px;
+  
 }
+h1{
+color: green;
+}
+.pSotto{
+  margin-bottom: 40px ;
+}
+li{
+  border-radius: 2px ;
+  margin-top: 2px;
+}
+/* liste nella home principale */
+.firstList{
+  font-size: small;
+  height: 40px;
+  text-align: center;
+  align-items: center;
+  align-content: center; 
+}
+.secondList{
+  font-size: small;
+  height: 40px;
+  text-align: center;
+  align-items: center;
+  align-content: center; 
+}
+/*permette di visualizzare il backgroundcolor appena si va sopra*/
+.firstList:hover{
+  background-color: bisque;
+}
+.secondList:hover{
+  background-color: lime;
+}
+ /* toglie la sottolineatura quando si va sopra */
+ 
+a:hover {
+  text-decoration: none;
+}
+
+body{
+  background-color: white;
+}
+/* lista della home principale */
+.thirdList{
+  margin-top: 20px;
+  height: 50px;
+  border-bottom: 1px solid black;
+}
+/* lista dei libri */
+.listaLibri{
+  margin-top: 20px;
+  height: 30px;
+  width: 600px;
+  align-items: center;
+  align-content: center;
+  border-bottom: 1px solid black;
+}
+a.libro:hover{
+  color: magenta;
+  border-radius: 5px;
+  border:1px solid black ;
+}
+.listaLibri:hover{
+  background-color: lightcyan;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  text-decoration: dotted;
+}
+
+

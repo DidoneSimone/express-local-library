@@ -14,25 +14,24 @@ html(lang='en')
         div(class='col-sm-2')
           block sidebar
             ul(class='sidebar-nav')
-              li
+              li(class='firstList')
                 a(href='/catalog') Home
-              li
+              li(class='firstList')
                 a(href='/catalog/books') All books
-              li
+              li(class='firstList')
                 a(href='/catalog/authors') All authors
-              li
+              li(class='firstList')
                 a(href='/catalog/genres') All genres
-              li
+              li(class='firstList')
                 a(href='/catalog/bookinstances') All book-instances
-              li
-                hr
-              li
+              hr
+              li(class='secondList')
                 a(href='/catalog/author/create') Create new author
-              li
+              li(class='secondList')
                 a(href='/catalog/genre/create') Create new genre
-              li
+              li(class='secondList')
                 a(href='/catalog/book/create') Create new book
-              li
+              li(class='secondList')
                 a(href='/catalog/bookinstance/create') Create new book instance (copy)
 
         div(class='col-sm-10')
